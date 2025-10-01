@@ -219,6 +219,15 @@ def title_by_actor(matches: List[str]) -> List[str]:
             result.append(get_title(movie))
     return result
 
+def director_by_year(matches: List[str]) -> List[str]:
+    """Finds director of movie made within a year"""
+    result = []
+    year = matches[0]
+
+    for movie in movie_db:
+        if year in get_year(movie):
+            result.append(get_director(movie))
+    return result
 
 # dummy argument is ignored and doesn't matter
 def bye_action(dummy: List[str]) -> None:
