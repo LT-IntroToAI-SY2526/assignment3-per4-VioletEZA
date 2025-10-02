@@ -435,4 +435,19 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "spike lee",
         ],
     ),
+    (
+        "10 things i hate about you",
+        "Gil Junger",
+        1999,
+        [
+            "Julia Stiles",
+            "Heath Ledger",
+            "Joseph Gordon-Levitt",
+            "Larisa Oleynik",
+            "David Krumholtz",
+            "Andrew Keegan",
+            "Gabrielle Union",
+            "Allison Janney",
+        ]
+    ),
 ]
