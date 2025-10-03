@@ -16,10 +16,10 @@ This assignment completes our movie chatbot system by implementing action functi
 
 1. What are some key programming concepts or techniques that you learned while completing this assignment?
 
-
+I learned how to better use functions through this assignment. I feel like I also learned more about how they work and can be used. I feel slightly more confident in this skill compared to the first assignment. 
 
 2. How does the overall movie chatbot system work? Explain the flow from when a user types a query to when they receive an answer.
 
-
+There are a series of projection functions that were given to us to put into different functions that discover parts that are missing from the users given information after asking. Then there 
 
 3. What are some real-world applications where this type of pattern-matching chatbot system could be useful? How might you extend or improve this system for practical use?
