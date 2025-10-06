@@ -302,8 +302,8 @@ if __name__ == "__main__":
     assert sorted(title_by_year(["1974"])) == sorted(
         ["amarcord", "chinatown"]
     ), "failed title_by_year test"
-    assert isinstance(director_by_year(["1975"]), list), "director_by_year not returning a list"
-    assert sorted(director_by_year(["1975"])) == sorted(["steven spielberg"]), "failed director_by_year"
+    assert isinstance(director_by_year(["1990"]), list), "director_by_year not returning a list"
+    assert sorted(director_by_year(["1990"])) == sorted(["Chris Columbus"]), "failed director_by_year"
     assert isinstance(title_by_year_range(["1970", "1972"]), list), "title_by_year_range not returning a list"
     assert sorted(title_by_year_range(["1970", "1972"])) == sorted(
         ["the godfather", "johnny got his gun"]

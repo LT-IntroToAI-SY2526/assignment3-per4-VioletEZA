@@ -20,6 +20,8 @@ I learned how to better use functions through this assignment. I feel like I als
 
 2. How does the overall movie chatbot system work? Explain the flow from when a user types a query to when they receive an answer.
 
-There are a series of projection functions that were given to us to put into different functions that discover parts that are missing from the users given information after asking. Then there 
+There are a series of projection functions that were given to us to put into different functions that discover parts that are missing from the users given information after asking. Then there is a function that checks to see if they match a pattern which then returns something if it is missing or doesn't exist.
 
 3. What are some real-world applications where this type of pattern-matching chatbot system could be useful? How might you extend or improve this system for practical use?
+
+This type of pattern-matching chatbot system could be useful when looking for answers when the user only has certain information not all of it. I could maybe extend or improve this system by using an api rather than constantly adding information to the movie database which was a bit of an inconvenienve to the functions after adding a movie.
