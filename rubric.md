@@ -13,13 +13,13 @@ Remember: This assignment completes our movie chatbot system - focus on understa
 ## Grading Table
 | Criteria | Points Possible | Points Earned | Comments |
 |----------|----------------|---------------|----------|
-| **Action Functions** | 9 | | |
+| **Action Functions** | 9 | 9 | |
 | **Core System Functions** | | | |
-| search_pa_list Implementation | 7 | | |
-| query_loop Function | 1 | | |
+| search_pa_list Implementation | 7 | 7 | |
+| query_loop Function | 1 | 1 | |
 | **Creative Additions** | | | |
-| Database & Pattern Extensions | 3 | | |
-| **TOTAL** | **20** | | |
+| Database & Pattern Extensions | 3 | 3 | |
+| **TOTAL** | **20** | 20 | You were missing a ")" on line 255 for your split function.  Everything else was great.  I fixed it and you should be able to see it in your changes. |
 ---
 ## Action Functions (9 points)
 **Basic Movie Queries (5 points)**

@@ -243,7 +243,7 @@ pa_list: List[Tuple[List[str], Callable[[List[str]], List[Any]]]] = [
     (str.split("what movies were made after _"), title_after_year),
     # note there are two valid patterns here two different ways to ask for the director
     # of a movie
-    (str.split("who directed the movie made in _", director_by_year),
+    (str.split("who directed the movie made in _"), director_by_year),
     (str.split("who directed %"), director_by_title),
     (str.split("who was the director of %"), director_by_title),
     (str.split("what movies were directed by %"), title_by_director),
@@ -271,8 +271,9 @@ def search_pa_list(src: List[str]) -> List[str]:
         mat = match(pat,src)
         if mat is not None:
             answer = act(mat)
-            return answer if answer else["No answers"]
-    return["I don't understand"]
+            return answer if answer else ["No answers"]
+
+    return ["I don't understand"]
 
 def query_loop() -> None:
     """The simple query loop. The try/except structure is to catch Ctrl-C or Ctrl-D
